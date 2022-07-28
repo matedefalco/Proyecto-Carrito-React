@@ -1,4 +1,4 @@
-import ItemComidaDisponible from './ItemComidaDisponible';
+import ItemComidaDisponible from '../ItemComidaDisponible/ItemComidaDisponible';
 import classes from './ComidasDisponibles.module.css'
 
 const DUMMY_COMIDAS = [
