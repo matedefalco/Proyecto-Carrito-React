@@ -1,5 +1,5 @@
-import ItemComidaDisponible from '../ItemComidaDisponible/ItemComidaDisponible';
-import classes from './ComidasDisponibles.module.css'
+import ItemComidaDisponible from "../ItemComidaDisponible/ItemComidaDisponible";
+import classes from "./ComidasDisponibles.module.css";
 
 const DUMMY_COMIDAS = [
   {
@@ -29,15 +29,16 @@ const DUMMY_COMIDAS = [
 ];
 
 const ComidasDisponibles = () => {
-    //<UserItem key={user.id} userName={user.userName} date={user.date} />
-    const listaComidas = DUMMY_COMIDAS.map(comida => (
-    <ItemComidaDisponible 
-        key={comida.id}
-        nombre={comida.nombre}
-        descripcion={comida.descripcion}
-        precio={comida.precio}
+  //<UserItem key={user.id} userName={user.userName} date={user.date} />
+  const listaComidas = DUMMY_COMIDAS.map((comida) => (
+    <ItemComidaDisponible
+      key={comida.id}
+      id={comida.id}
+      nombre={comida.nombre}
+      descripcion={comida.descripcion}
+      precio={comida.precio}
     />
-    ));
+  ));
 
   return (
     <section className={classes.comidas}>

@@ -1,0 +1,19 @@
+.form{
+    float:right;
+    display:flex;
+    flex-direction: column;
+}
+
+.botonForm{
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    margin-top: 5px;
+    border: 0;
+    font-size: 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
