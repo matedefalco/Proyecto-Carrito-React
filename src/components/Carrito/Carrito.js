@@ -20,7 +20,7 @@ const Carrito = (props) => {
         <span>35.62</span>
       </div>
       <div className={classes.ctas}>
-        <button className={classes['button--alt']}>Cerrar</button>
+        <button onClick={props.onClose} className={classes['button--alt']}>Cerrar</button>
         <button className={classes.button}>Ordenar</button>
       </div>
     </Modal>
